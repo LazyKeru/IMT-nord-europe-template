@@ -2,21 +2,6 @@
 
 \input{variable}
 
-\usepackage{glossaries}
-
-\newglossaryentry{latex}
-{
-    name=latex,
-    description={Is a markup language specially suited 
-    for scientific documents}
-}
-
-\newglossaryentry{maths}
-{
-    name=mathematics,
-    description={Mathematics is what mathematicians do}
-}
-
 \date{August 2023}
 
 \begin{document}
@@ -61,7 +46,11 @@
 
 \pagebreak
 
-\printglossaries
+\printglossary[type=\acronymtype]
+
+\pagebreak
+
+\printglossary
 
 \pagebreak
 
