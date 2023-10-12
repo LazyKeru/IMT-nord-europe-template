@@ -1,0 +1,72 @@
+\input{config-package}
+
+\input{variable}
+
+\usepackage{glossaries}
+
+\newglossaryentry{latex}
+{
+    name=latex,
+    description={Is a markup language specially suited 
+    for scientific documents}
+}
+
+\newglossaryentry{maths}
+{
+    name=mathematics,
+    description={Mathematics is what mathematicians do}
+}
+
+\date{August 2023}
+
+\begin{document}
+
+\selectlanguage{french}
+
+\maketitle
+
+\pagebreak
+
+\input{thanks}
+
+\pagebreak
+
+\selectlanguage{english}
+\input{abstract-eng}
+\selectlanguage{french}
+
+\pagebreak
+
+\input{abstract-fr}
+
+\pagebreak
+
+\tableofcontents
+
+\pagebreak
+
+\input{introduction}
+
+\pagebreak
+
+\input{partie1}
+
+\pagebreak
+
+\input{partie2}
+
+\pagebreak
+
+\input{partie3}
+
+\pagebreak
+
+\printglossaries
+
+\pagebreak
+
+\input{bibliography}
+
+\pagebreak
+
+\end{document}
